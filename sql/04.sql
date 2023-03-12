@@ -6,6 +6,8 @@
  * (You may choose to either include or exclude the movie 'AMERICAN CIRCUS' in the results.)
  */
 
+--I decided to exclude the movie 'American Circus' 
+
 SELECT DISTINCT F.title 
 from film as F 
 JOIN film_actor as FA1 on (F.film_id = FA1.film_id)
